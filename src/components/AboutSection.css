@@ -1,0 +1,72 @@
+/* Column container */
+.row_about {  
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px; /*TESTEAR*/
+  background-color: black !important;
+  padding-bottom: 60px;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side_about {
+  flex: 70%;
+  background-color: black !important;
+  padding: 20px;
+}
+
+/* Main column */
+.main_about {
+  flex: 30%;
+  background-color: black !important;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+h1.title {
+  text-align: left;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: "The Seasons", Sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+}
+
+h1 {
+  padding-top: 0px !important;
+  color: white !important
+}
+
+.description {
+  color: #8B8A8A;
+  font-family: "Times New Roman", Sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+span {
+  font-family: "The Seasons", Sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .row_about, .navbar {   
+    flex-direction: column;
+  }
+
+  .fakeimg {
+    height: 450px;
+    background-image: url(../../public/images/me.jpg);
+    width: 100%;
+    padding: 20px;
+  }
+}
+

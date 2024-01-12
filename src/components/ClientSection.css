@@ -1,0 +1,48 @@
+.container-client {
+    text-align: center;
+    height: 470px;
+    background-color: #dfd9ce;
+    margin: 0 auto; /* Center the container horizontally */
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+h1 {
+    padding-top: 100px;
+    margin-bottom: 80px;
+}
+.slick-next {
+    right: 0px !important;
+    display: none !important;
+}
+
+.slick-prev {
+    left: -0px !important;
+    display: none !important;
+}
+
+img.img-carousel {
+    height: 80px;
+    width: 106px;
+}
+
+.slick-dots {
+    margin-top: 40px !important; /* Adjust the margin-top to control the spacing */
+    position: relative;
+}
+
+@media screen and (max-width: 700px) {
+    .container-client {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    img.img-carousel {
+        height: 150px;
+        width: 200px;
+    }
+
+    .slick-slide img {
+        display: center;
+    }
+  }

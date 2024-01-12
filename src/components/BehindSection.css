@@ -1,0 +1,34 @@
+.container-behind {
+  background-color: #f6f3ef;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.p_behind {
+  color: black !important;
+  text-align: center !important;
+  font-family: "The Seasons", Sans-serif;
+  font-size: 31px;
+  font-weight: 600;
+}
+
+.img-behind{
+  padding-top: 25px;
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+.h1_behind {
+  color: black !important;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "The Seasons", Sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.title_behind {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}

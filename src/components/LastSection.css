@@ -1,0 +1,54 @@
+/* Column container */
+.row-last {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side-last {
+    height: 650px;
+    flex: 50%;
+    background-image: url(../../public/images/last_section_left.png);
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main-last {
+    height: 650px;
+    flex: 50%;
+    background-image: url(../../public/images/last_section_right.png);
+    padding: 0px;
+  }
+  
+  /* Fake image, just for this example */
+  .last_img_left {
+    background-image: url(../../public/images/last_section_left.png);
+    width: 100%;
+    padding: 0px;
+  }
+
+  .last_img_right {
+    background-image: url(../../public/images/last_section_right.png);
+    width: 100%;
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .row-last {   
+      flex-direction: column;
+    }
+  
+    .fakeimg-last {
+      height: 450px;
+      background-color: grey;
+      /*background-image: url(../../public/images/me.jpg);*/
+      width: 100%;
+      padding: 20px;
+    }
+    .main-last { 
+        height: 250px;
+    }
+  }
+  
+  

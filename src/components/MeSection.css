@@ -1,0 +1,82 @@
+/* Column container */
+.row_me {  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f3ef !important;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.title_me {
+  color: #000000;
+  font-family: "The Seasons", Sans-serif;
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 1.4px;
+}
+.description_me {
+  color: #000000;
+  font-family: "CormorantGaramond-Medium", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1.4px;
+  /*width: var(--container-widget-width, 116.545% );*/
+  max-width: 116.545%;
+}
+
+.subtitle_me {
+  padding-bottom: 20px;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-family: "CormorantGaramond-Medium", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1.4px;
+}
+
+h1.p {
+  text-align: left;
+  color: white !important;
+}
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side_me {
+    flex: 70%;
+    background-color: #f6f3ef !important;
+    color: black;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main_me {
+    flex: 30%;
+    background-color: #f6f3ef !important;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .row_me, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+  .fakeimg {
+    height: 450px;
+    background-image: url(../../public/images/me.jpg);
+    width: 100%;
+    padding: 20px;
+}
